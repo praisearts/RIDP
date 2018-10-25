@@ -1,15 +1,15 @@
 Random Image Display Using PHP (RIDUP)
 
 
-HOW TO USE:
+### HOW TO USE:
 •	Simply extract the zip file to a location in your web server (local used here).
 •	Then reference the ‘index.php’ file from the browser.
 •	Reloading the webpage also reloads with a new image stored in the image folder.
 
-WHY IT WORKS
+### WHY IT WORKS
 This script uses the either of two php randomization functions to create random image display effect after every page reload. 
 
-SOME HTML AND CSS:
+### SOME HTML AND CSS:
 The index.php is the RIDUP template - of some sort. Ironically it only contains a single line of php code (that does the main work) embedded in html. Some simple/basic CSS (in the “style.css” file) were used to create a visually appealing interface.
 
 The image to be randomly displayed are stored in an “images” folder/directory where each they are saved serially starting with an integer value (that would be used as the ‘min’ value in the mt_rand() function) and the terminating integer value which is used as the ‘max’ value in mt_rand(). In this RIDUP script, six images were named 1.png, 2.png, 3.png, 4.png, 5.png,6.png.
