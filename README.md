@@ -25,6 +25,9 @@ To generate a random number between 1 and 6 (inclusive), for example, use mt_ran
 
 I used the mt_rand() function in RIDUP because the php documentation states that the mt_rand() function is faster than the rand function. Backward compatibility have been solved (in PHP 7.1.0) by making rand() an alias of mt_rand().
 
+If you need more information contact the maintainer.
+
+
 COPYRIGHT: The text and images were all imported from the research of: Singh, B and Ryan, J (2015) Managing Fertilizers to Enhance Soil Health. International Fertilizer-Industry Association (IFA), Paris, France.
 
 	USE. IMPROVE. SHARE.
